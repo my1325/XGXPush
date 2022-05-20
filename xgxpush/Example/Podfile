@@ -1,0 +1,8 @@
+source 'http://172.16.170.10:3080/mayong/XGXWPod.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'XGXPush_Example' do
+  pod 'XGXPush/GeTuiPush', :path=>'../'
+  pod 'XGXPush/JPush', :path=>'../'
+end

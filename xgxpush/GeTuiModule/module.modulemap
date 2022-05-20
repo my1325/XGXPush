@@ -1,0 +1,4 @@
+module GeTuiPackageBridge {
+    header "BridgeHeader.h"
+    export *
+}

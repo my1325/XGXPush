@@ -1,0 +1,37 @@
+PODS:
+  - GTSDK (2.4.5.0-noidfa)
+  - JCore (2.4.0)
+  - JPush (3.4.0):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - XGXPush/Core (0.1.1)
+  - XGXPush/GeTuiPush (0.1.1):
+    - GTSDK (= 2.4.5-noidfa)
+    - XGXPush/Core
+  - XGXPush/JPush (0.1.1):
+    - JCore
+    - JPush
+    - XGXPush/Core
+
+DEPENDENCIES:
+  - XGXPush/GeTuiPush (from `../`)
+  - XGXPush/JPush (from `../`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - GTSDK
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  XGXPush:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTSDK: 00d963fe385ee0039f95082b239597b046e72590
+  JCore: a29e4b0ee54e1301446dc02d8e1c350404108b34
+  JPush: defaa108c38806f6efdcfaf4c416854d25fca8e5
+  XGXPush: d9a69ab4220a956c6f20dbdf1a5f06968b98d5cb
+
+PODFILE CHECKSUM: 3b27adaf7562717c70aa0fa6886a7b818a9004b1
+
+COCOAPODS: 1.9.1

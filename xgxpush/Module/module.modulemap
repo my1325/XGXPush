@@ -1,0 +1,4 @@
+module JPUSHPackageBridge {
+    header "BridgeHeader.h"
+    export *
+}
