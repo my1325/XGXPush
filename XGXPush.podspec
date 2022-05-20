@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'SWIFT_COMPILATION_MODE' => 'wholemodule' }
 
   s.subspec 'Core' do |ss|
-      ss.source_files = 'XGXPush/Classes/Core/*.swift'
+      ss.source_files = 'xgxpush/XGXPush/Classes/Core/*.swift'
   end
   
   s.subspec 'JPush' do |ss|
-      ss.source_files = 'XGXPush/Classes/JPush/*'
+      ss.source_files = 'xgxpush/XGXPush/Classes/JPush/*'
       ss.dependency 'XGXPush/Core'
       # ss.dependency 'XGXPushJPush', '0.1.2'
       ss.dependency 'JPush'
@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
   end
 
   s.subspec 'GeTuiPush' do |ss| 
-    ss.source_files = 'XGXPush/Classes/GeTuiPush/*'
+    ss.source_files = 'xgxpush/XGXPush/Classes/GeTuiPush/*'
     ss.dependency 'XGXPush/Core'
     # ss.dependency 'XGXPushGeTui', '0.1.1'
     ss.preserve_paths = ['GeTuiModule/module.modulemap', 'GeTuiModule/BridgeHeader.h']
