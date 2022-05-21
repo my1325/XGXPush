@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
       # ss.dependency 'XGXPushJPush', '0.1.2'
       ss.dependency 'JPush'
       ss.dependency 'JCore'
-      ss.preserve_paths = ['Module/module.modulemap', 'Module/BridgeHeader.h']
+      ss.preserve_paths = ['xgxpush/Module/module.modulemap', 'xgxpush/Module/BridgeHeader.h']
       ss.pod_target_xcconfig = {
       # 本地开发时为改值
         'SWIFT_INCLUDE_PATHS' => ['$(PODS_ROOT)/XGXPush/Module', '$(PODS_TARGET_SRCROOT)/XGXPush/Module'],
@@ -53,7 +53,7 @@ TODO: Add long description of the pod here.
     ss.source_files = 'xgxpush/XGXPush/Classes/GeTuiPush/*'
     ss.dependency 'XGXPush/Core'
     # ss.dependency 'XGXPushGeTui', '0.1.1'
-    ss.preserve_paths = ['GeTuiModule/module.modulemap', 'GeTuiModule/BridgeHeader.h']
+    ss.preserve_paths = ['xgxpush/GeTuiModule/module.modulemap', 'xgxpush/GeTuiModule/BridgeHeader.h']
     ss.dependency 'GTSDK', '2.4.5-noidfa'
       ss.pod_target_xcconfig = {
       # 本地开发时为改值
